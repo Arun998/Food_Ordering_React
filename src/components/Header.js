@@ -18,7 +18,7 @@ const Header = ()=>{
                 <li className="p-3 font-serif"><Link to="/" className="link">Home</Link></li>
                 <li className="p-3 font-serif"><Link to="/about" className="link">AboutUS</Link> </li>
                 <li className="p-3 font-serif"><Link to="/contact" className="link">ContactUS</Link></li>
-                <li className="p-3 font-serif"><Link>🛒</Link></li>
+                <li className="p-1 text-2xl"><Link>🛒</Link></li>
                 <li className="p-3 font-serif">{data.name}</li>
                 <button onClick={()=>{login==="Login"?setLogin("Logout"):setLogin("Login")}} className="font-bold border-2 p-2 rounded-md ml-5">{login}</button>
             </ul>
