@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is react-course-from scratch",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arun998/React_from_scratch.git"
+  },
+  "author": "Arunkumar.k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arun998/React_from_scratch/issues"
+  },
+  "homepage": "https://github.com/Arun998/React_from_scratch#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.27",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  }
+}

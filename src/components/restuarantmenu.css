@@ -1,0 +1,40 @@
+.res-menu,.menu-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid;
+    box-shadow: 2px 1px 0px 0px;
+
+}
+.item-img{
+    width:100px;
+    height: 200px;
+    
+}
+.item-img img{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.item-name{
+    width: 440px;
+}
+.menu-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 10px;
+}
+.menu-search input{
+    width: 260px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+button{
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+    

@@ -1,0 +1,55 @@
+# Package.json is a configuration of npm
+
+# npm is a package manager that will mange all dependencies
+
+# npm will take of version of the packages it will take from these package.json
+
+Bundler
+
+# what is bundler
+whole code needs to be compress,minified
+webback,vite,parcel are bundlers 
+these bundlers are minified or compressed the code properly before its going to production
+
+#parcel
+npm install -D parcel
+
+in these D means two types of dependeceis
+* one dev dependency it is for developing app ->npm install -D parcel
+* two normal dependency it is for production ->npm install parcel
+
+"parcel": "^2.9.3" in these ^ it is used upgrade the minor versions of parcel automatically
+
+"parcel": "~2.9.3" in these ~ isis used to upgrade major versions of parcel automatically
+
+
+# package-lock.json
+this file contains information about the exact version of each and every node module
+
+# nodel Modules
+node modules contain everything you need to run your application
+
+
+# transitive dependencies
+when we have installed some package parcel which has other dependancies then those dependancy also have there dependencies gets downloaded with it
+
+# npx 
+npx is used to excute the packages
+
+# for dev  npx parcel index.html
+# for production npx build parcel.html
+
+**we creates scripts start and build in package.json
+#npm start is equal npm run start
+#npm build is notequals to npm run build
+
+ ## Jsx
+ JSX stands for JavaScript XML
+ jsx is not a html but html-XML like syntax 
+
+ ## lazy loading
+ # chunking
+ # dynamic importing 
+ all these are doing increase the performance of the app when the app growing bigger bundling of js also increasing size.so we have to chunk the bundlers and optimize the app using these lazy loading
+
+
